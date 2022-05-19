@@ -10,7 +10,7 @@ import "../lib/openzeppelin-contracts/contracts/token/ERC721/IERC721.sol";
 // - What should the token URI point to?
 // - Methods to equipt/dequipt
 // - ERC1155 support
-// - Data structure to store previous events
+// - Data structure to store events that this profile has attended
 contract Profile is SoulBoundToken, Ownable {
   string private _baseURIextended;
 
