@@ -26,6 +26,11 @@ contract Profile is SoulBoundToken, Ownable {
   erc721Token public chestPiece;
   erc721Token public headPiece;
   erc721Token public footwear;
+  
+  // [TO DO] IMPLEMENT SVG AS TOKEN URI TO MAKE NFT DYNAMIC
+  // [TO DO] IMPLEMENT SVG AS TOKEN URI TO MAKE NFT DYNAMIC
+  // [TO DO] IMPLEMENT SVG AS TOKEN URI TO MAKE NFT DYNAMIC
+  // [TO DO] IMPLEMENT SVG AS TOKEN URI TO MAKE NFT DYNAMIC
 
   constructor() ERC721("Profile", "Profile") {}
 
